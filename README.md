@@ -410,19 +410,8 @@ The Help Topics list confirms the update — **Report a Problem / Business Criti
 
 ---
 
-## Summary
+## Conclusion
+This post-install configuration transformed osTicket into a structured enterprise support system by defining roles with granular permissions, organizing agents into departments and dynamic teams, enabling open ticket submission, creating staff and client accounts, enforcing response times with SLAs, and routing issues via help topics—establishing a secure, efficient, and scalable ticketing workflow ready for real-world IT and customer support operations.
 
-This configuration transforms a freshly installed osTicket instance into a fully functional enterprise help desk system. The table below summarizes everything configured:
 
-| Component | Items Created |
-|---|---|
-| **Roles** | Supreme Admins (all permissions) |
-| **Departments** | System Administrators |
-| **Teams** | Level II Support |
-| **Agents** | Jane Dao (Support / Limited Access / Level I), Thomas Smith (Support / Expanded Access / Level II) |
-| **Users** | Karen (karen@gmail.com) |
-| **SLA Plans** | Sev-A (1 hr / 24-7), Sev-B (4 hrs / 24-7), Sev-C (8 hrs / Business Hours) |
-| **Help Topics** | Business Critical Outage, Password Reset, Personal Computer Issues, Equipment Request |
-| **Security** | Setup folder deleted, ost-config.php set to Read-only |
 
-The system is now ready for the next phase: **Ticket Lifecycle Practice** — creating, triaging, assigning, and resolving tickets as both an agent and an end-user.
