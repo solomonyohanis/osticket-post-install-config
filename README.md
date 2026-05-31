@@ -47,8 +47,7 @@ This project picks up where the osTicket installation left off. Using both the *
 
 **Admin Panel → Agents → Roles**
 
-> **What is a Role?**
-> Roles are permission bundles assigned to agents. Instead of giving every agent full admin access, roles let you define exactly what an agent can do — such as viewing tickets, closing them, deleting them, assigning them to other agents, and so on. A role does not represent a job title; it controls what actions are available inside osTicket.
+Roles are permission bundles assigned to agents. Instead of giving every agent full admin access, roles let you define exactly what an agent can do — such as viewing tickets, closing them, deleting them, assigning them to other agents, and so on. A role does not represent a job title; it controls what actions are available inside osTicket.
 
 <img width="1920" height="955" alt="01_agent_login" src="https://github.com/user-attachments/assets/5ec501e9-d19e-4813-b150-d67e6748adb4" />
 
@@ -103,8 +102,7 @@ A green success banner confirms the role was created. **Supreme Admins** now app
 
 **Admin Panel → Agents → Departments**
 
-> **What is a Department?**
-> Departments are the primary organizational units in osTicket. They control which agents see which tickets. Every ticket must belong to a department, and agents are assigned to one primary department. Examples: IT Support, Billing, HR, Networking. Departments can be set as **Top-Level** (standalone) or nested under a parent department.
+Departments are the primary organizational units in osTicket. They control which agents see which tickets. Every ticket must belong to a department, and agents are assigned to one primary department. Examples: IT Support, Billing, HR, Networking. Departments can be set as **Top-Level** (standalone) or nested under a parent department.
 
 <img width="1920" height="955" alt="12_departments_list_existing" src="https://github.com/user-attachments/assets/326fda26-fbf2-4a62-a554-81393342a990" />
 
@@ -132,8 +130,7 @@ A green success banner confirms the creation. **System Administrators** now appe
 
 **Admin Panel → Agents → Teams**
 
-> **What is a Team?**
-> While departments are fixed organizational groups, teams are flexible cross-departmental groups. A team can pull agents from any department together for a specific purpose — for example, a "Critical Outage Response" team might include agents from Networking, Desktop Support, and Server Admins. Agents on a team can access tickets assigned to that team regardless of their home department.
+While departments are fixed organizational groups, teams are flexible cross-departmental groups. A team can pull agents from any department together for a specific purpose — for example, a "Critical Outage Response" team might include agents from Networking, Desktop Support, and Server Admins. Agents on a team can access tickets assigned to that team regardless of their home department.
 
 <img width="1920" height="955" alt="17_teams_list_level_i_support" src="https://github.com/user-attachments/assets/c10e2c37-969f-4f78-bdb8-47997b9eebfc" />
 
@@ -187,8 +184,7 @@ The two security tasks above — deleting the `setup` folder and making `ost-con
 
 **Admin Panel → Agents → Agents**
 
-> **What is an Agent?**
-> Agents are the staff members (support reps, IT technicians, help desk analysts) who log into the osTicket staff panel to work on tickets. Each agent is assigned to a primary department and a role, which together determine what tickets they see and what actions they can take.
+Agents are the staff members (support reps, IT technicians, help desk analysts) who log into the osTicket staff panel to work on tickets. Each agent is assigned to a primary department and a role, which together determine what tickets they see and what actions they can take.
 
 <img width="1920" height="955" alt="26_agents_list_solomon_only" src="https://github.com/user-attachments/assets/3a7a3c10-1f5b-4dc5-b8d4-01ab9f67a084" />
 
@@ -261,8 +257,8 @@ The Agents list now shows all three agents: **Jane Dao**, **Solomon Yohanis**, a
 
 **Agent Panel → Users → User Directory**
 
-> **What is a User?**
-> Users are the end-customers who submit support tickets. Unlike agents, users do not have access to the admin or staff panel — they interact with osTicket only through the public-facing end-user portal. Users can be registered (with accounts) or guests (email only). The User Directory in the Agent Panel lets staff manage and look up user accounts.
+
+Users are the end-customers who submit support tickets. Unlike agents, users do not have access to the admin or staff panel — they interact with osTicket only through the public-facing end-user portal. Users can be registered (with accounts) or guests (email only). The User Directory in the Agent Panel lets staff manage and look up user accounts.
 
 > **Note:** To configure users, you must switch from the Admin Panel to the **Agent Panel** by clicking "Agent Panel" in the top-right corner.
 
@@ -296,8 +292,8 @@ The User Directory now shows **Karen** alongside the osTicket Team default user.
 
 **Admin Panel → Manage → SLA**
 
-> **What is an SLA Plan?**
-> SLA stands for **Service Level Agreement**. In osTicket, an SLA Plan defines how quickly a ticket must be addressed before it is marked **overdue**. The SLA plan sets a **grace period** (in hours) and a **schedule** (24/7 or business hours only). When a ticket is created, it is automatically assigned to an SLA based on its help topic or department, and the clock starts ticking.
+
+SLA stands for **Service Level Agreement**. In osTicket, an SLA Plan defines how quickly a ticket must be addressed before it is marked **overdue**. The SLA plan sets a **grace period** (in hours) and a **schedule** (24/7 or business hours only). When a ticket is created, it is automatically assigned to an SLA based on its help topic or department, and the clock starts ticking.
 
 <img width="1920" height="955" alt="44_sla_list_default_sla" src="https://github.com/user-attachments/assets/79bf6ec2-775b-44b1-ab05-cd4d2d42e077" />
 
@@ -345,8 +341,8 @@ All three SLA plans — **Sev-A**, **Sev-B**, and **Sev-C** — are now listed a
 
 **Admin Panel → Manage → Help Topics**
 
-> **What is a Help Topic?**
-> Help Topics are the categories users select when submitting a ticket (e.g., "Password Reset", "Equipment Request", "Report a Problem"). They serve as the entry point for routing: based on the help topic chosen, osTicket can automatically assign the ticket to a specific department, apply an SLA plan, set a priority level, and auto-assign it to an agent. Help Topics make the system self-routing.
+
+Help Topics are the categories users select when submitting a ticket (e.g., "Password Reset", "Equipment Request", "Report a Problem"). They serve as the entry point for routing: based on the help topic chosen, osTicket can automatically assign the ticket to a specific department, apply an SLA plan, set a priority level, and auto-assign it to an agent. Help Topics make the system self-routing.
 
 <img width="1920" height="955" alt="51_help_topics_list_existing_four" src="https://github.com/user-attachments/assets/66196e8d-be86-4202-8358-a3249064365d" />
 
