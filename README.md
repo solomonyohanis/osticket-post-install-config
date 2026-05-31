@@ -14,7 +14,7 @@ This project picks up where the osTicket installation left off. Using both the *
 
 ## Environments and Technologies Used
 
-- Windows 10 (Virtual Machine)
+- Windows 11 (Virtual Machine)
 - Internet Information Services (IIS)
 - osTicket v1.18
 - File Explorer (Windows)
